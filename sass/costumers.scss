@@ -54,3 +54,35 @@
 	text-transform: uppercase;
 	color: #1abb9c;
 }
+.costumers__label {
+	font-size: 0;
+}
+.costumers__controls {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 14px;
+	margin: 0 auto;
+	width: 52px;
+}
+input[type="radio"] {
+	display: none;
+}
+input[type="radio"]+label::before {
+	display: block;
+	content: "";
+	width: 10px;
+	height: 10px;
+	border: 1px solid #777777;
+	cursor: pointer;
+}
+input[type="radio"]:checked+label::before {
+	display: block;
+	content: "";
+	width: 10px;
+	height: 10px;
+	border: 1px solid #bebebe;
+	cursor: pointer;
+}
+input[type="radio"]+label:hover::before {
+	border: 1px solid #000;
+	}

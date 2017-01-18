@@ -151,10 +151,16 @@
 				<h2 class="costumers__title">What Our Customers Think</h2>
 				<p class="costumers__text">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Maecenas faucibus mollis interdum. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor gravida at eget metus.</p>
 				<p class="costumers__sign">Barclay Widerski</p>
-				<input type="radio">
-				<input type="radio">
-				<input type="radio">
-				<input type="radio">
+				<div class="costumers__controls">
+					<input class="costumers__input" type="radio" id="radio__one" name="input__radio"/>
+					<label class="costumers__label" for="radio__one">one</label>
+					<input class="costumers__input" type="radio" id="radio__two" name="input__radio" checked/>
+					<label class="costumers__label" for="radio__two">two</label>
+					<input class="costumers__input" type="radio" id="radio__three" name="input__radio"/>
+					<label class="costumers__label" for="radio__three">three</label>
+					<input class="costumers__input" type="radio" id="radio__four" name="input__radio"/>
+					<label class="costumers__label" for="radio__four">four</label>
+				</div>
 			</div>
 		</section>
 		<section class="journal">
@@ -210,7 +216,7 @@
 						<div class="info__head">
 							<h2 class="info__title">Get In Touch</h2>
 						</div>
-						<div class="info__info info__info--contacts">
+						<div class="info__info info__contact">
 							<p class="info__text">Fusce dapibus, tellus commodo, tortor mauris condimentum utellus fermentum, porta sem malesuada</p>
 							<div class="info__contacts">
 								<p class="info__text info__adress">Moonshine Street No: 14/05 Light City, Jupiter</p>
@@ -223,7 +229,7 @@
 						<div class="info__head">
 							<h2 class="info__title">Twitter</h2>
 						</div>
-						<div class="info__info">
+						<div class="info__info info__twitter">
 							<p class="info__text">Aenean lacinia bibendum nulla sed leo posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
 							<p class="info__text">Donec ullamcorper metus auctor fringilla. Nullam quis risus eget.</p>
 							<p class="info__text">Vestibulum id ligula porta  euismod semper. Maecenas faucibus mollis.</p>
@@ -233,7 +239,7 @@
 						<div class="info__head">
 							<h2 class="info__title">Popular Posts</h2>
 						</div>
-						<div class="info__info">
+						<div class="info__info info__popular">
 							<p class="info__text">Vivamus sagittis lacus vel augue laoreet rutrum dolor auctor.<br/><span class="info__date">14 Nov, 2012</span></p>
 							<p class="info__text">Scelerisque nisl consectetur et.<br/><span class="info__date">22 May, 2012</span></p>
 							<p class="info__text">Pellentesque ornare sem lacinia quam venenatis vestibulum.<br/><span class="info__date">15 July, 2012</span></p>
@@ -243,7 +249,7 @@
 						<div class="info__head">
 							<h2 class="info__title">About Us</h2>
 						</div>
-						<div class="info__info">
+						<div class="info__info info__about">
 							<p class="info__text">Vestibulum id ligula porta felis euismod semper. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
 							<p class="info__text">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus curabitur </p>
 						</div>
@@ -252,5 +258,10 @@
 			</div>
 		</section>
 	</main>
+	<footer class="footer">
+		<div class="wrapper">
+			<p class="footer__copyrate">© 2013 Loom. All rights reserved. Theme by elemis.</p>
+		</div>
+	</footer>
 </body>
 </html>

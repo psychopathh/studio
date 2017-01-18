@@ -5,6 +5,7 @@
 .info__list {
 	display: flex;
 	justify-content: space-between;
+	margin-right: 9px;
 	padding-top: 65px;
 }
 .info__title {
@@ -38,14 +39,34 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    min-height: 215px;
-}
-.info__info--contacts {
-	min-height: 
+    min-height: 186px;
 }
 .info__head {
 	padding-bottom: 13px;
 }
 .info__contacts {
-	width: 200px;
+	width: 207px;
+}
+.info__about {
+	min-height: 176px;
+}
+.info__twitter {
+	width: 240px;
+	min-height: 215px;
+}
+.info__popular {
+	width: 215px;
+	min-height: 220px;
+}
+.info__adress {
+	background: url(../img/fill.png) no-repeat 0px 4px;
+    padding-left: 24px;
+}
+.info__number {
+	background: url(../img/phone.png) no-repeat 0px 6px;
+    padding-left: 24px;
+}
+.info__mail {
+	background: url(../img/message.png) no-repeat 0px 8px;
+    padding-left: 24px;
 }

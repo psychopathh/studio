@@ -1,0 +1,13 @@
+.footer {
+	display: flex;
+	justify-content: space-between;
+	min-height: 90px;
+	background: #333333;
+}
+.footer__copyrate {
+	padding-top: 34px;
+	margin: 0;
+	font-size: 14px;
+	line-height: 22px;
+	color: #cacaca;
+}
