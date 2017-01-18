@@ -8,6 +8,10 @@
     "grunt-contrib-sass": "^1.0.0",
     "grunt-contrib-uglify": "^2.0.0",
     "grunt-contrib-watch": "^1.0.0",
-    "grunt-sass": "^2.0.0"
+    "grunt-sass": "^2.0.0",
+    "node-normalize-scss": "^1.4.0"
+  },
+  "dependencies": {
+    "normalize.css": "^5.0.0"
   }
 }

@@ -1,0 +1,17 @@
+.welcome {
+	min-height: 1280px;
+}
+.welcome__title {
+	margin: 0;
+	padding-top: 70px;
+	font-size: 35px;
+	line-height: 22px;
+	font-weight: 800;
+	color: $color-welcome;
+}
+.welcome__text {
+	font-size: 25px;
+	line-height: 22px;
+	font-weight: 300;
+	color: $color-welcome;
+}
