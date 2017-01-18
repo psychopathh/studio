@@ -5,6 +5,7 @@
 .info__list {
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
 	margin-right: 9px;
 	padding-top: 65px;
 }

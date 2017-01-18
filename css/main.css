@@ -508,6 +508,7 @@ html {
   margin: 0;
   padding: 0;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .main-menu__item {
@@ -663,6 +664,7 @@ html {
 .welcome-list {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   min-height: 312px;
 }
 
@@ -845,6 +847,7 @@ html {
 .projects__list {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .projects__item {
@@ -1020,6 +1023,7 @@ input[type="radio"] + label:hover::before {
 .journal__list {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   min-height: 375px;
 }
 
@@ -1091,6 +1095,7 @@ input[type="radio"] + label:hover::before {
 .info__list {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   margin-right: 9px;
   padding-top: 65px;
 }

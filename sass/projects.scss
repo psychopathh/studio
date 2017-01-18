@@ -35,6 +35,7 @@
 .projects__list {
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
 }
 .projects__item {
 	width: 370px;

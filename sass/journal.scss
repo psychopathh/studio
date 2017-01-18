@@ -35,6 +35,7 @@
 .journal__list {
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
 	min-height: 375px;
 }
 .journal__item {
