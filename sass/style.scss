@@ -1,6 +1,7 @@
 @import "normalize";
 @import "http://webfonts.ru/import/bebasneue.css";
 @import "variables.scss";
+@import "mixin.scss";
 @import "html.scss";
 @import "body.scss";
 @import "wrapper.scss";
@@ -9,3 +10,6 @@
 @import "main-logo.scss";
 @import "main-menu.scss";
 @import "welcome.scss";
+@import "welcome-coursel.scss";
+@import "welcome-list.scss";
+@import "process.scss";

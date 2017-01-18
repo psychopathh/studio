@@ -1,0 +1,38 @@
+.welcome-list {
+	display: flex;
+	justify-content: space-between;
+	min-height: 312px;
+}
+.welcome-list__wrap {
+    width: 270px;
+    min-height: 312px;
+    border: 1px solid #e1e1e1;
+}
+.welcome-list__item {
+	margin: 3px auto;
+    width: 262px;
+    min-height: 304px;
+    text-align: center;
+    border: 1px solid #e1e1e1;
+}
+.welcome-list__title {
+	padding-bottom: 5px;
+	margin: 0;
+	font-size: 15px;
+	line-height: 26px;
+	text-transform: uppercase;
+	font-weight: 800;
+	color: $color-welcome;
+}
+.welcome-list__text {
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 25px;
+    color: #7a7a7a;
+    width: 243px;
+    text-align: center;
+}
+.welcome-list__img {
+	padding-bottom: 20px;
+    padding-top: 50px;
+}

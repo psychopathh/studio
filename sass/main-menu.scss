@@ -1,5 +1,5 @@
 .main-menu {
-	margin-top: 43px;
+	margin-top: 45px;
 }
 .main-menu__list {
     display: flex;
@@ -8,7 +8,7 @@
     justify-content: space-between;
 }
 .main-menu__item {
-	margin-right: 46px;
+	margin-right: 47.5px;
 	list-style: none;
 }
 .main-menu__item:last-child {
@@ -21,6 +21,7 @@
 	font-weight: 800;
 	text-transform: uppercase;
 	color: $text-color;
+	letter-spacing: -0.15px;
 }
 .main-menu__link:hover {
 	color: #1abb9c;
