@@ -1,0 +1,56 @@
+.costumers {
+	margin-bottom: 50px;
+	min-height: 330px;
+	background: #525355 url("../img/costumers-bg.jpg") no-repeat;
+	background-size: cover;
+}
+.costumers__title {
+	position: relative;
+	padding-bottom: 26px;
+	padding-top: 76px;
+	margin: 0 auto;
+	width: 243px;
+	font-size: 16px;
+	line-height: 22px;
+	text-transform: uppercase;
+	color: #d0d0d0;
+}
+.costumers__title::before {
+    position: absolute;
+    content: "";
+    top: 86px;
+    right: 261px;
+    width: 82px;
+    height: 1px;
+    background: url(../img/welcome-line.png);
+    opacity: 0.6;
+}
+.costumers__title::after {
+    position: absolute;
+    content: "";
+    top: 86px;
+    left: 261px;
+    width: 82px;
+    height: 1px;
+    background: url(../img/welcome-line.png);
+    opacity: 0.6;
+}
+.costumers__text {
+	padding-bottom: 9px;
+	margin: 0 auto;
+	width: 970px;
+	font-size: 20px;
+	line-height: 35px;
+	text-align: center;
+	font-weight: 300;
+	color: #d8d8d8;
+}
+.costumers__sign {
+	margin: 0 auto;
+	width: 117px;
+	font-size: 12px;
+	line-height: 22px;
+	font-weight: 800;
+	text-transform: uppercase;
+	color: #1abb9c;
+}
