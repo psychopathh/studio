@@ -14,6 +14,9 @@
 	font-weight: 800;
 	color: #616161;
 }
+.projects__title:hover {
+	color: $color-hover;
+}
 .projects__title::before {
     position: absolute;
     content: "";
@@ -49,6 +52,9 @@
 	text-transform: uppercase;
 	font-weight: 800;
 	color: $text-color;
+}
+.projects__head:hover {
+	color: $color-hover;
 }
 .projects__caption {
 	padding-bottom: 9px;

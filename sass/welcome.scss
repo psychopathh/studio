@@ -11,6 +11,9 @@
 	font-weight: 800;
 	color: $color-welcome;
 }
+.welcome__title:hover {
+    color: $color-hover;
+}
 .welcome__text {
 	padding-bottom: 69px;
 	margin: 0;
@@ -30,6 +33,9 @@
     font-weight: 800;
     text-transform: uppercase;
     color: #606060;
+}
+.welcome__subtitle:hover {
+    color: $color-hover;
 }
 .welcome__subtitle::before {
     position: absolute;

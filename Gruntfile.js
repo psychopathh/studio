@@ -32,7 +32,7 @@ imagemin: {
 concat: {
     dist: {
         src: [
-            'js/libs/*.js', // Все JS в папке libs
+            'js/*.js', // Все JS в папке libs
             'js/global.js'  // Конкретный файл
         ],
         dest: 'js/build/production.js',

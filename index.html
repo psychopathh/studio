@@ -3,6 +3,8 @@
 <head>
 	<meta charset="utf-8">
 	<title>Studio</title>
+	<link rel="stylesheet" href="slick/slick.css"/>
+	<link rel="stylesheet" href="slick/slick-theme.css"/>
 	<link rel="stylesheet" href="css/main.css">
 	<link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,700,800" rel="stylesheet">
 </head>
@@ -16,7 +18,7 @@
 				<nav class="main-menu">
 					<ul class="main-menu__list">
 						<li class="main-menu__item">
-							<a class="main-menu__link" href="#">Home</a>
+							<a class="main-menu__link main-menu__link--active" href="index.html">Home</a>
 						</li>
 						<li class="main-menu__item">
 							<a class="main-menu__link" href="#">Pages</a>
@@ -41,48 +43,66 @@
 	<main>
 		<section class="welcome">
 			<div class="wrapper">
-				<h1 class="welcome__title">
-					Hello! We are Loom Studio
-				</h1>
+				<a href="index.html" class="title">
+					<h1 class="welcome__title">
+						Hello! We are Loom Studio
+					</h1>
+				</a>
 				<p class="welcome__text">a creative media agency that believes in the power of creative ideas and great design.</p>
 				<div class="welcome-coursel">
-					<div class="welcome-coursel__prev">
-						<a class="welcome-coursel__cursor"> < </a>
+					<div class="welcome-coursel__slide welcome-coursel__slide--one">
+						<div class="welcome-coursel__title">
+							<p class="welcome-coursel__head">Stationery Branding Mockup</p>
+						</div>
+						<div class="welcome-coursel__info">
+							<p class="welcome-coursel__text">Etiam porta sem malesuada <span class="welcome-coursel__span">magna</span> mollis euismod</p>
+						</div>
 					</div>
-					<div class="welcome-coursel__title">
-						<p class="welcome-coursel__head">Stationery Branding Mockup</p>
-					</div>
-					<div class="welcome-coursel__item">
-						<p class="welcome-coursel__text">Etiam porta sem malesuada <span class="welcome-coursel__span">magna</span> mollis euismod</p>
+					<div class="welcome_coursel__slide">
+						<div class="welcome-coursel__item">
+							<img src="http://placehold.it/1145x550" alt="place"/>
+						</div>
 					</div>
 				</div>
-				<h2 class="welcome__subtitle">What we do</h2>
+					<div class="titles">
+					<a href="index.html" class="title">
+						<h2 class="welcome__subtitle">What we do</h2>
+					</a>
+					</div>
 				<div class="welcome-list">
 					<div class="welcome-list__wrap">
 						<div class="welcome-list__item">
 							<img class="welcome-list__img" src="img/printer.png" alt="Принтер">
-							<h2 class="welcome-list__title">Print Design</h2>
+								<a href="index.html" class="title">
+									<h2 class="welcome-list__title">Print Design</h2>
+								</a>
 							<p class="welcome-list__text">Nulla vitae libero pharetra augue. Etiam porta malesuada magna mollis euismod consectetur sem urdom tempus porttitor.</p>
 						</div>
 					</div>
 					<div class="welcome-list__wrap">
 						<div class="welcome-list__item">
 							<img class="welcome-list__img" src="img/tv.png" alt="Телевизор">
-							<h2 class="welcome-list__title">motion video</h2>
+								<a href="index.html" class="title">
+									<h2 class="welcome-list__title">motion video</h2>
+								</a>
 							<p class="welcome-list__text">Nulla vitae libero pharetra augue. Etiam porta malesuada magna mollis euismod consectetur sem urdom tempus porttitor.</p>
 						</div>
 					</div>
 					<div class="welcome-list__wrap">
 						<div class="welcome-list__item">
 							<img class="welcome-list__img" src="img/box.png" alt="Подарок">
-							<h2 class="welcome-list__title">Package Design</h2>
+								<a href="index.html" class="title">
+									<h2 class="welcome-list__title">Package Design</h2>
+								</a>
 							<p class="welcome-list__text">Nulla vitae libero pharetra augue. Etiam porta malesuada magna mollis euismod consectetur sem urdom tempus porttitor.</p>
 						</div>
 					</div>
 					<div class="welcome-list__wrap">
 						<div class="welcome-list__item">
 							<img class="welcome-list__img" src="img/clock.png" alt="Часы">
-							<h2 class="welcome-list__title">time management</h2>
+								<a href="index.html" class="title">
+									<h2 class="welcome-list__title">time management</h2>
+								</a>
 							<p class="welcome-list__text">Nulla vitae libero pharetra augue. Etiam porta malesuada magna mollis euismod consectetur sem urdom tempus porttitor.</p>
 						</div>
 					</div>
@@ -123,23 +143,37 @@
 		</section>
 		<section class="projects">
 			<div class="wrapper">
-				<h2 class="projects__title">our recent projects</h2>
+				<a class="title" href="index.html">
+					<h2 class="projects__title">our recent projects</h2>
+				</a>
 				<div class="projects__list">
 					<div class="projects__item">
-						<img src="img/disk.jpg" alt="диск">
-						<h2 class="projects__head">Dısk cover Mockup</h2>
+						<a href="index.html">
+							<img src="img/disk.jpg" alt="диск">
+						</a>
+						<a class="title" href="index.html">
+							<h2 class="projects__head">Dısk cover Mockup</h2>
+						</a>
 						<p class="projects__caption">Music, PSD, Mockups</p>
 						<p class="projects__text">Nulla libero un pharetra augue etiam malesuada magna mollis. Nullam id dolor id nibh ultricies.</p>
 					</div>
 					<div class="projects__item">
-						<img src="img/poster.jpg" alt="афиша">
-						<h2 class="projects__head">john doe business Card</h2>
+						<a href="index.html">
+							<img src="img/poster.jpg" alt="афиша">
+						</a>
+						<a class="title" href="index.html">
+							<h2 class="projects__head">john doe business Card</h2>
+						</a>
 						<p class="projects__caption">Corporate, Card</p>
 						<p class="projects__text">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod erat a ante.</p>
 					</div>
 					<div class="projects__item">
-						<img src="img/graph.jpg" alt="график">
-						<h2 class="projects__head">Infographic Elements</h2>
+						<a href="index.html">
+							<img src="img/graph.jpg" alt="график">
+						</a>
+						<a class="title" href="index.html">
+							<h2 class="projects__head">Infographic Elements</h2>
+						</a>
 						<p class="projects__caption">Element, Graphic</p>
 						<p class="projects__text">Euismod quis risus eget urna mollis ornare vel eu leo. Fusce dapibus, tellus ac cursus commodo.</p>
 					</div>
@@ -148,59 +182,82 @@
 		</section>
 		<section class="costumers">
 			<div class="wrapper">
-				<h2 class="costumers__title">What Our Customers Think</h2>
-				<p class="costumers__text">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Maecenas faucibus mollis interdum. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor gravida at eget metus.</p>
-				<p class="costumers__sign">Barclay Widerski</p>
-				<div class="costumers__controls">
-					<input class="costumers__input" type="radio" id="radio__one" name="input__radio"/>
-					<label class="costumers__label" for="radio__one">one</label>
-					<input class="costumers__input" type="radio" id="radio__two" name="input__radio" checked/>
-					<label class="costumers__label" for="radio__two">two</label>
-					<input class="costumers__input" type="radio" id="radio__three" name="input__radio"/>
-					<label class="costumers__label" for="radio__three">three</label>
-					<input class="costumers__input" type="radio" id="radio__four" name="input__radio"/>
-					<label class="costumers__label" for="radio__four">four</label>
+				<div class="costumers-slider">
+					<div class="costumers-slider__slide">
+						<h2 class="costumers__title">Title</h2>
+						<p class="costumers__text">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Maecenas faucibus mollis interdum. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor gravida at eget metus.!</p>
+						<p class="costumers__sign">Andrey</p>
+					</div>
+					<div class="costumers-slider__slide">
+						<h2 class="costumers__title">What Our Customers Think</h2>
+						<p class="costumers__text">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Maecenas faucibus mollis interdum. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor gravida at eget metus.</p>
+						<p class="costumers__sign">Barclay Widerski</p>
+					</div>
+					<div class="costumers-slider__slide">
+						<h2 class="costumers__title">Title 2</h2>
+						<p class="costumers__text">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Maecenas faucibus mollis interdum. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor gravida at eget metus.</p>
+						<p class="costumers__sign">Max</p>
+					</div>
+					<div class="costumers-slider__slide">
+						<h2 class="costumers__title">Title 3</h2>
+						<p class="costumers__text">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Maecenas faucibus mollis interdum. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor gravida at eget metus.</p>
+						<p class="costumers__sign">Den</p>
+					</div>
 				</div>
 			</div>
 		</section>
 		<section class="journal">
 			<div class="wrapper">
-				<h2 class="journal__title">from the journal</h2>
+				<a class="title" href="index.html">
+					<h2 class="journal__title">from the journal</h2>
+				</a>
 				<div class="journal__list">
 					<div class="journal__item">
-						<img src="img/journal-j.jpg" alt="картинка">
+						<a href="index.html">
+							<img src="img/journal-j.jpg" alt="картинка">
+						</a>
 						<div class="journal__caption">
 							<div class="journal__date">
 								<p class="journal__number"><span class="journal__span">21</span><br/>FEB</p>
 							</div>
 							<div class="journal_wrap">
-								<h2 class="journal__head">Ultricies Cras Ullamcorper Elit</h2>
+								<a class="title" href="index.html">
+									<h2 class="journal__head">Ultricies Cras Ullamcorper Elit</h2>
+								</a>
 								<p class="journal__sign">Journal, Article  |  7 Comments</p>
 							</div>
 						</div>
 						<p class="journal__text">Nulla libero un pharetra augue etiam malesuada magna mollis. Praesent commodo cursus magna scelerisque. </p>
 					</div>
 					<div class="journal__item">
-						<img src="img/journal-old.jpg" alt="картинка">
+						<a href="index.html">
+							<img src="img/journal-old.jpg" alt="картинка">
+						</a>
 						<div class="journal__caption">
 							<div class="journal__date">
 								<p class="journal__number"><span class="journal__span">21</span><br/>FEB</p>
 							</div>
 							<div class="journal_wrap">
-								<h2 class="journal__head">Sem Elit Amet Vestibulum</h2>
+								<a class="title" href="index.html">
+									<h2 class="journal__head">Sem Elit Amet Vestibulum</h2>
+								</a>
 								<p class="journal__sign">Graphic, Article  | 13 Comments</p>
 							</div>
 						</div>
 						<p class="journal__text">Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</p>
 					</div>
 					<div class="journal__item">
-						<img src="img/journal-vintage.jpg" alt="картинка">
+						<a href="index.html">
+							<img src="img/journal-vintage.jpg" alt="картинка">
+						</a>
 						<div class="journal__caption">
 							<div class="journal__date">
 								<p class="journal__number"><span class="journal__span">21</span><br/>FEB</p>
 							</div>
 							<div class="journal_wrap">
-								<h2 class="journal__head">Vestibulum Magna Venenatis Tellus</h2>
+								<a class="title" href="index.html">
+									<h2 class="journal__head">Vestibulum Magna Venenatis Tellus</h2>
+								</a>
 								<p class="journal__sign">Journal, Article, Poster  |  11 Comments</p>
 							</div>
 						</div>
@@ -227,22 +284,38 @@
 					</div>
 					<div class="info__item">
 						<div class="info__head">
-							<h2 class="info__title">Twitter</h2>
+							<a class="title" href="index.html">
+								<h2 class="info__title info__title--active">Twitter</h2>
+							</a>
 						</div>
 						<div class="info__info info__twitter">
-							<p class="info__text">Aenean lacinia bibendum nulla sed leo posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
-							<p class="info__text">Donec ullamcorper metus auctor fringilla. Nullam quis risus eget.</p>
-							<p class="info__text">Vestibulum id ligula porta  euismod semper. Maecenas faucibus mollis.</p>
+							<a class="title" href="index.html">
+								<p class="info__text info__text--active">Aenean lacinia bibendum nulla sed leo posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+							</a>
+							<a class="title" href="index.html">
+								<p class="info__text info__text--active">Donec ullamcorper metus auctor fringilla. Nullam quis risus eget.</p>
+							</a>
+							<a class="title" href="index.html">
+								<p class="info__text info__text--active">Vestibulum id ligula porta  euismod semper. Maecenas faucibus mollis.</p>
+							</a>
 						</div>
 					</div>
 					<div class="info__item">
 						<div class="info__head">
-							<h2 class="info__title">Popular Posts</h2>
+							<a class="title" href="index.html">
+								<h2 class="info__title info__title--active">Popular Posts</h2>
+							</a>
 						</div>
 						<div class="info__info info__popular">
-							<p class="info__text">Vivamus sagittis lacus vel augue laoreet rutrum dolor auctor.<br/><span class="info__date">14 Nov, 2012</span></p>
-							<p class="info__text">Scelerisque nisl consectetur et.<br/><span class="info__date">22 May, 2012</span></p>
-							<p class="info__text">Pellentesque ornare sem lacinia quam venenatis vestibulum.<br/><span class="info__date">15 July, 2012</span></p>
+							<a class="title" href="index.html">
+								<p class="info__text info__text--active">Vivamus sagittis lacus vel augue laoreet rutrum dolor auctor.<br/><span class="info__date">14 Nov, 2012</span></p>
+							</a>
+							<a class="title" href="index.html">
+								<p class="info__text info__text--active">Scelerisque nisl consectetur et.<br/><span class="info__date">22 May, 2012</span></p>
+							</a>
+							<a class="title" href="index.html">
+								<p class="info__text info__text--active">Pellentesque ornare sem lacinia quam venenatis vestibulum.<br/><span class="info__date">15 July, 2012</span></p>
+							</a>
 						</div>
 					</div>
 					<div class="info__item">
@@ -260,8 +333,13 @@
 	</main>
 	<footer class="footer">
 		<div class="wrapper">
-			<p class="footer__copyrate">© 2013 Loom. All rights reserved. Theme by elemis.</p>
+			<a class="title" href="index.html">
+				<p class="footer__copyrate">© 2013 Loom. All rights reserved. Theme by elemis.</p>
+			</a>
 		</div>
 	</footer>
+	<script src="http://yastatic.net/jquery/2.1.3/jquery.min.js"></script>
+	<script type="text/javascript" src="slick/slick.min.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
 </body>
 </html>

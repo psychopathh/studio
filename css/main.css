@@ -517,6 +517,10 @@ html {
   color: #1abb9c;
 }
 
+.main-menu__link--active {
+  color: #1abb29;
+}
+
 .welcome {
   min-height: 1210px;
   margin-bottom: 70px;
@@ -530,6 +534,10 @@ html {
   line-height: 22px;
   font-weight: 800;
   color: #606060;
+}
+
+.welcome__title:hover {
+  color: #1abb9c;
 }
 
 .welcome__text {
@@ -554,6 +562,10 @@ html {
   color: #606060;
 }
 
+.welcome__subtitle:hover {
+  color: #1abb9c;
+}
+
 .welcome__subtitle::before {
   position: absolute;
   content: "";
@@ -575,25 +587,7 @@ html {
 }
 
 .welcome-coursel {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
   min-height: 550px;
-  background: #c5b6b1 url("../img/welcome-bg.jpg") no-repeat;
-}
-
-.welcome-coursel__prev {
-  width: 45px;
-  background: #fdfdfd;
-  height: 45px;
-  text-align: center;
-  margin-bottom: 103px;
-  margin-left: 20px;
-  cursor: pointer;
-}
-
-.welcome-coursel__prev:hover {
-  background: #eaebed;
 }
 
 .welcome-coursel__cursor {
@@ -605,9 +599,8 @@ html {
   color: #606060;
 }
 
-.welcome-coursel__item {
+.welcome-coursel__info {
   margin-left: 50px;
-  margin-bottom: 50px;
   width: 420px;
   min-height: 48px;
   background: #fdfdfd;
@@ -627,8 +620,9 @@ html {
 }
 
 .welcome-coursel__title {
-  margin-left: 50px;
+  margin-top: 401px;
   margin-bottom: 3px;
+  margin-left: 50px;
   width: 361px;
   min-height: 48px;
   background: #fdfdfd;
@@ -642,6 +636,63 @@ html {
   font-size: 20px;
   line-height: 22px;
   color: #606060;
+}
+
+.welcome-coursel__slide--one {
+  min-height: 550px;
+  background: url("../img/welcome-img.jpg");
+}
+
+.slick-prev {
+  position: absolute;
+  width: 45px;
+  background: #fdfdfd;
+  height: 45px;
+  text-align: center;
+  margin-bottom: 103px;
+  margin-left: -10px;
+  z-index: 1;
+  left: 30px;
+  cursor: pointer;
+}
+
+.slick-prev:hover {
+  background-color: #e7e7e7;
+}
+
+.slick-next:hover {
+  background-color: #e7e7e7;
+}
+
+.slick-next {
+  position: absolute;
+  width: 45px;
+  background: #fdfdfd;
+  height: 45px;
+  text-align: center;
+  margin-bottom: 103px;
+  margin-left: -10px;
+  z-index: 1;
+  right: 30px;
+  cursor: pointer;
+}
+
+.slick-prev:before {
+  font-family: 'raleway';
+  content: "<";
+  font-size: 19px;
+  line-height: 1;
+  opacity: .75;
+  color: #656565;
+}
+
+.slick-next:before {
+  font-family: 'raleway';
+  content: ">";
+  font-size: 19px;
+  line-height: 1;
+  opacity: .75;
+  color: #656565;
 }
 
 .welcome-list {
@@ -673,6 +724,10 @@ html {
   text-transform: uppercase;
   font-weight: 800;
   color: #606060;
+}
+
+.welcome-list__title:hover {
+  color: #1abb9c;
 }
 
 .welcome-list__text {
@@ -807,6 +862,10 @@ html {
   color: #616161;
 }
 
+.projects__title:hover {
+  color: #1abb9c;
+}
+
 .projects__title::before {
   position: absolute;
   content: "";
@@ -848,6 +907,10 @@ html {
   color: #606060;
 }
 
+.projects__head:hover {
+  color: #1abb9c;
+}
+
 .projects__caption {
   padding-bottom: 9px;
   margin: 0;
@@ -877,7 +940,7 @@ html {
   padding-bottom: 26px;
   padding-top: 76px;
   margin: 0 auto;
-  width: 243px;
+  text-align: center;
   font-size: 16px;
   line-height: 22px;
   text-transform: uppercase;
@@ -888,22 +951,22 @@ html {
   position: absolute;
   content: "";
   top: 86px;
-  right: 261px;
+  right: 361px;
   width: 82px;
   height: 1px;
   background: url(../img/welcome-line.png);
-  opacity: 0.6;
+  opacity: 0.5;
 }
 
 .costumers__title::after {
   position: absolute;
   content: "";
   top: 86px;
-  left: 261px;
+  left: 361px;
   width: 82px;
   height: 1px;
   background: url(../img/welcome-line.png);
-  opacity: 0.6;
+  opacity: 0.5;
 }
 
 .costumers__text {
@@ -919,8 +982,8 @@ html {
 
 .costumers__sign {
   margin: 0 auto;
-  width: 117px;
   font-size: 12px;
+  text-align: center;
   line-height: 22px;
   font-weight: 800;
   text-transform: uppercase;
@@ -931,38 +994,35 @@ html {
   font-size: 0;
 }
 
-.costumers__controls {
-  display: flex;
-  justify-content: space-between;
-  padding-top: 14px;
-  margin: 0 auto;
-  width: 52px;
-}
-
-input[type="radio"] {
-  display: none;
-}
-
-input[type="radio"] + label::before {
+.slick-dots {
+  position: absolute;
+  bottom: -25px;
   display: block;
-  content: "";
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  bottom: -28px;
+  list-style: none;
+  text-align: center;
+}
+
+.slick-dots li {
+  position: relative;
+  display: inline-block;
   width: 10px;
   height: 10px;
+  margin: 0 2px;
+  padding: 0;
+  cursor: pointer;
   border: 1px solid #777777;
-  cursor: pointer;
 }
 
-input[type="radio"]:checked + label::before {
-  display: block;
-  content: "";
-  width: 10px;
-  height: 10px;
+li.slick-active {
   border: 1px solid #bebebe;
-  cursor: pointer;
 }
 
-input[type="radio"] + label:hover::before {
-  border: 1px solid #000;
+.slick-dots li button {
+  display: none;
 }
 
 .journal {
@@ -981,6 +1041,10 @@ input[type="radio"] + label:hover::before {
   font-weight: 800;
   text-transform: uppercase;
   color: #616161;
+}
+
+.journal__title:hover {
+  color: #1abb9c;
 }
 
 .journal__title::before {
@@ -1049,6 +1113,10 @@ input[type="radio"] + label:hover::before {
   color: #606060;
 }
 
+.journal__head:hover {
+  color: #1abb9c;
+}
+
 .journal__sign {
   margin: 0;
   font-size: 12px;
@@ -1083,6 +1151,10 @@ input[type="radio"] + label:hover::before {
   padding-top: 65px;
 }
 
+.info__title--active:hover {
+  color: #1abb9c;
+}
+
 .info__title {
   margin: 0;
   font-size: 14px;
@@ -1098,6 +1170,10 @@ input[type="radio"] + label:hover::before {
   font-weight: 500;
 }
 
+.info__text--active:hover {
+  color: #1abb9c;
+}
+
 .info__text {
   margin: 0;
   font-size: 14px;
@@ -1111,7 +1187,10 @@ input[type="radio"] + label:hover::before {
   font-size: 12px;
   line-height: 25px;
   font-weight: 500;
-  color: #cacaca;
+}
+
+.info__date:hover {
+  color: #1abb9c;
 }
 
 .info__info {
@@ -1171,6 +1250,14 @@ input[type="radio"] + label:hover::before {
   font-size: 14px;
   line-height: 22px;
   color: #cacaca;
+}
+
+.footer__copyrate:hover {
+  color: #1abb9c;
+}
+
+.title {
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=main.css.map */

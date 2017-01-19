@@ -1,21 +1,5 @@
 .welcome-coursel {
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-end;
 	min-height: 550px;
-	background: #c5b6b1 url("../img/welcome-bg.jpg") no-repeat;
-}
-.welcome-coursel__prev {
-    width: 45px;
-    background: #fdfdfd;
-    height: 45px;
-    text-align: center;
-    margin-bottom: 103px;
-    margin-left: 20px;
-    cursor: pointer;
-}
-.welcome-coursel__prev:hover {
-	background: #eaebed;
 }
 .welcome-coursel__cursor {
 	display: inline-block;
@@ -23,9 +7,8 @@
 	font-weight: 600;
 	@include welcome
 }
-.welcome-coursel__item {
+.welcome-coursel__info {
 	margin-left: 50px;
-	margin-bottom: 50px;
     width: 420px;
     min-height: 48px;
     background: #fdfdfd;
@@ -42,8 +25,9 @@
 	color: #1abb9c;
 }
 .welcome-coursel__title {
+	margin-top: 401px;
+    margin-bottom: 3px;
 	margin-left: 50px;
-	margin-bottom: 3px;
 	width: 361px;
     min-height: 48px;
     background: #fdfdfd;
@@ -54,4 +38,54 @@
 	margin: 0;
 	text-transform: uppercase;
 	@include welcome
+}
+.welcome-coursel__slide--one {
+	min-height: 550px;
+	background: url("../img/welcome-img.jpg");
+}
+.slick-prev {
+    position: absolute;
+    width: 45px;
+    background: #fdfdfd;
+    height: 45px;
+    text-align: center;
+    margin-bottom: 103px;
+    margin-left: -10px;
+    z-index: 1;
+    left: 30px;
+    cursor: pointer;
+}
+.slick-prev:hover {
+	background-color: #e7e7e7;
+}
+.slick-next:hover {
+	background-color: #e7e7e7;
+}
+.slick-next {
+	position: absolute;
+    width: 45px;
+    background: #fdfdfd;
+    height: 45px;
+    text-align: center;
+    margin-bottom: 103px;
+    margin-left: -10px;
+    z-index: 1;
+    right: 30px;
+    cursor: pointer;
+}
+.slick-prev:before {
+	font-family: 'raleway';
+	content: "<";
+    font-size: 19px;
+    line-height: 1;
+    opacity: .75;
+    color: #656565;
+}
+.slick-next:before {
+	font-family: 'raleway';
+	content: ">";
+    font-size: 19px;
+    line-height: 1;
+    opacity: .75;
+    color: #656565;
 }

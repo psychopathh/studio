@@ -9,6 +9,9 @@
 	margin-right: 9px;
 	padding-top: 65px;
 }
+.info__title--active:hover {
+	color: $color-hover;
+}
 .info__title {
 	margin: 0;
 	font-size: 14px;
@@ -22,6 +25,9 @@
 	width: 252px;
 	font-weight: 500;
 }
+ .info__text--active:hover {
+ 	color: $color-hover;
+ }
 .info__text {
 	margin: 0;
 	font-size: 14px;
@@ -34,7 +40,9 @@
 	font-size: 12px;
 	line-height: 25px;
 	font-weight: 500;
-	color: #cacaca;
+}
+.info__date:hover {
+	color: $color-hover;
 }
 .info__info {
     display: flex;
