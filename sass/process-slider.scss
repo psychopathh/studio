@@ -1,0 +1,60 @@
+.process-slider .slick-dots {
+	display: flex;
+	top:202px;
+}
+#slick-slide20 {
+	position: relative;
+    margin-left: 48px;
+    width: 95px;
+    height: 95px;
+    background: #1abb9c url("../img/lamp.png") no-repeat center center;
+    border-radius: 50%;
+}
+#slick-slide21 {
+	position: relative;
+    margin-left: 230px;
+    width: 95px;
+    height: 95px;
+    background: url("../img/rocket.png") no-repeat center center;
+    border-radius: 50%;
+}
+#slick-slide21:hover {
+	background: #fefefe url("../img/rocket.png") no-repeat center center;
+}
+#slick-slide22 {
+	position: relative;
+    margin-left: 229px;
+    width: 95px;
+    height: 95px;
+    background: url("../img/colb.png") no-repeat center center;
+    border-radius: 50%;
+}
+#slick-slide22:hover {
+	background: #fefefe url("../img/colb.png") no-repeat center center;
+}
+#slick-slide23 {
+	position: relative;
+    margin-left: 227px;
+    width: 95px;
+    height: 95px;
+    background: url("../img/medal.png") no-repeat center center;
+    border-radius: 50%;
+}
+#slick-slide23:hover {
+	background: #fefefe  url("../img/medal.png") no-repeat center center;
+}
+.slick-dotted.slick-slider {
+    margin-bottom: 95px;
+}
+#slick-slide21::before,
+#slick-slide22::before,
+#slick-slide23::before {
+	position: absolute;
+    content: "";
+    top: 44px;
+    right: 117px;
+    width: 188px;
+    height: 1px;
+    background: url(../img/welcome-line.png);
+    opacity: 0.6;
+}
