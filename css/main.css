@@ -479,24 +479,7 @@ html {
 }
 
 .main-logo {
-  margin-top: 28px;
-  height: 52px;
-  width: 52px;
-  background: #414141;
-  border-radius: 50%;
-  cursor: pointer;
-}
-
-.main-logo__button {
-  display: inline-block;
-  margin: 9px 15px;
-  font-family: 'Bebas Neue';
-  font-size: 16px;
-  line-height: 17px;
-  letter-spacing: 9px;
-  font-weight: 500;
-  text-decoration: none;
-  color: #ffffff;
+  padding-top: 28px;
 }
 
 .main-menu {
