@@ -586,6 +586,11 @@ html {
   background: url(../img/welcome-line.png);
 }
 
+.welcome_coursel__slide {
+  min-height: 550px;
+  background: url("../img/sli.jpg");
+}
+
 .welcome-coursel {
   min-height: 550px;
 }
