@@ -1264,8 +1264,12 @@ li.slick-active {
   margin-left: 48px;
   width: 95px;
   height: 95px;
-  background: #1abb9c url("../img/lamp.png") no-repeat center center;
+  background: url("../img/lamp-active.png") no-repeat center center;
   border-radius: 50%;
+}
+
+#slick-slide20:hover {
+  background: #fefefe url("../img/lamp-active.png") no-repeat center center;
 }
 
 #slick-slide21 {
@@ -1322,6 +1326,22 @@ li.slick-active {
   height: 1px;
   background: url(../img/welcome-line.png);
   opacity: 0.6;
+}
+
+.slick-active#slick-slide20 {
+  background: #1abb9c url("../img/lamp.png") no-repeat center center;
+}
+
+.slick-active#slick-slide21 {
+  background: #1abb9c url("../img/rocket-active.png") no-repeat center center;
+}
+
+.slick-active#slick-slide22 {
+  background: #1abb9c url("../img/colb-active.png") no-repeat center center;
+}
+
+.slick-active#slick-slide23 {
+  background: #1abb9c url("../img/medal-active.png") no-repeat center center;
 }
 
 /*# sourceMappingURL=main.css.map */
