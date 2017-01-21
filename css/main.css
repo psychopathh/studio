@@ -1267,6 +1267,10 @@ li.slick-active {
   color: #f0f0f0;
 }
 
+.title__copyrate {
+  color: #f0f0f0;
+}
+
 .process-slider .slick-dots {
   display: flex;
   top: 202px;
