@@ -1,0 +1,16 @@
+.contact__list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	min-height: 300px;
+}
+.contact__item {
+	padding-top: 100px;
+}
+.contact__title {
+	text-align: center;
+}
+.contact__text {
+	font-size: 20px;
+	text-align: center;
+}

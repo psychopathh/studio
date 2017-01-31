@@ -889,6 +889,7 @@ html {
 .projects__item {
   width: 370px;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .projects__head {
@@ -1069,6 +1070,7 @@ li.slick-active {
 }
 
 .journal__item {
+  margin-bottom: 50px;
   width: 370px;
 }
 
@@ -1359,6 +1361,74 @@ li.slick-active {
 
 .slick-active#slick-slide23 {
   background: #1abb9c url("../img/medal-active.png") no-repeat center center;
+}
+
+.contact__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  min-height: 300px;
+}
+
+.contact__item {
+  padding-top: 100px;
+}
+
+.contact__title {
+  text-align: center;
+}
+
+.contact__text {
+  font-size: 20px;
+  text-align: center;
+}
+
+.contact-form {
+  min-height: 300px;
+}
+
+.contact-form__title {
+  text-align: center;
+}
+
+.contact-form__list {
+  margin: 0 auto;
+  margin-bottom: 50px;
+  width: 500px;
+  border: 4px solid #e1e1e1;
+}
+
+.contact-form__item {
+  margin-top: 25px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.contact-form__label {
+  font-size: 20px;
+}
+
+.contact-form__input {
+  font-size: 15px;
+  height: 35px;
+  text-align: center;
+  width: 250px;
+}
+
+.contact-form__but {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.contact-form__button {
+  background: #1ABB7B;
+  font-size: 20px;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.contact-form__button:hover {
+  background: #1ABB5B;
 }
 
 /*# sourceMappingURL=main.css.map */
